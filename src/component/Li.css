@@ -1,20 +1,25 @@
 .fa-times {
-  margin:10px 0;    
+  margin: 10px 0;
   border-radius: 50%;
   color: rgb(196, 125, 125);
-  font-size: 20px
+  font-size: 20px;
 }
 
-li { 
+li {
   flex-basis: 100%;
+  padding: 10px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: center;
   margin: 5px 0;
-  background:rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 li p {
   font-size: 20px;
   text-align: left;
+}
+
+i {
+  cursor: pointer;
 }

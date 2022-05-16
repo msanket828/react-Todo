@@ -2,13 +2,16 @@
   padding: 0;
   margin: 0;
 }
-li { list-style: none;}
+li {
+  list-style: none;
+}
 .wrapper {
   width: 70%;
   margin: 0 auto;
   padding: 50px 0;
   height: auto;
-  background: linear-gradient(rgb(133 142 142),rgb(90 158 216 / 67%)),url(/images/2.jpg);
+  background: linear-gradient(rgb(133 142 142), rgb(90 158 216 / 67%)),
+    url(/images/2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,12 +20,12 @@ li { list-style: none;}
 
 .wrapper h1 {
   text-align: center;
-  background-color: #000;  
+  background-color: #000;
 }
 
 .todo_ul {
   width: 50%;
-  margin: 0 auto;  
+  margin: 0 auto;
 }
 
 form {
@@ -42,7 +45,7 @@ form input[type="text"] {
 form input[type="submit"] {
   padding: 10px 20px;
   border: none;
-  background-color: #000;  
+  background-color: #000;
   border-radius: 50px;
   text-transform: capitalize;
   color: inherit;
@@ -51,4 +54,13 @@ form input[type="submit"] {
 
 .form-group {
   margin: 10px 0;
+}
+
+@media screen and (max-width: 992px) {
+  .wrapper {
+    width: 100%;
+  }
+  .todo_ul {
+    width: 90%;
+  }
 }
